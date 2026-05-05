@@ -5,7 +5,9 @@
 ![Python](https://img.shields.io/badge/Python-3.8+-blue?style=flat-square&logo=python)
 ![Flask](https://img.shields.io/badge/Flask-3.x-black?style=flat-square&logo=flask)
 ![Anthropic](https://img.shields.io/badge/Claude-AI-orange?style=flat-square)
-![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
+![Live](https://img.shields.io/badge/Live-Render-brightgreen?style=flat-square&logo=render)
+
+🔗 **[Try the Live App →](https://chat-with-pdf-49dh.onrender.com)**
 
 ---
 
@@ -17,7 +19,9 @@ Whether it's a textbook, a research paper, a contract, or a report — just uplo
 
 ---
 
-## 🖥️ Demo
+## 🖥️ Live Demo
+
+**👉 [https://chat-with-pdf-49dh.onrender.com](https://chat-with-pdf-49dh.onrender.com)**
 
 ```
 Upload a PDF  →  Ask questions  →  Get grounded answers
@@ -232,18 +236,4 @@ This project covers these key concepts:
 
 ---
 
-## 📄 License
 
-This project is open source and available under the [MIT License](LICENSE).
-
----
-
-## 👩‍💻 Author
-
-**Vaibhavi Kokande**
-
-Built as a learning project to understand RAG (Retrieval-Augmented Generation) with Python, Flask, and Claude AI.
-
----
-
-<p align="center">Made with ❤️ and Claude AI</p>
