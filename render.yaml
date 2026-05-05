@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: pdf-chat-app
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app --bind 0.0.0.0:$PORT --workers=1 --threads=4 --timeout=120
+    envVars:
+      - key: GROQ_API_KEY
+        sync: false          # you will paste this in the Render dashboard
+      - key: ANTHROPIC_API_KEY
+        sync: false          # optional — leave blank if using Groq
+      - key: PYTHON_VERSION
+        value: 3.11.7

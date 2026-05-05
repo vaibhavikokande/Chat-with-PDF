@@ -1,0 +1,29 @@
+# ── Secrets ──────────────────────────────
+.env
+
+# ── Python ───────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# ── PDF uploads (temp files are auto-deleted, belt-and-suspenders) ──
+*.pdf
+
+# ── IDEs ─────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── OS ───────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
